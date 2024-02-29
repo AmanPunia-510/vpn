@@ -5,7 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    transition: background 200ms linear;
+    transition: 400ms linear !important;
+}
+
+body {
+    background-color: #FBFBFB;
 }
 
 :root {
@@ -31,6 +35,7 @@
     --red-color-pure: #F53838;
     --red-color-light: #F53855;
     --white-color: #ffffff;
+    --border-color-ee2: #EEEFF2;
 }
 
 .ff-rubik {
@@ -146,8 +151,7 @@ ul {
 }
 
 .nav {
-    padding-top: 30px;
-    box-shadow: 0px 23px 15px -8px rgba(0, 0, 0, 0.1);
+    padding: 20px 0px;
 }
 
 .pt-160 {
@@ -181,4 +185,107 @@ ul {
     width: 30%;
 }
 
-@media (max-width:1200px) {}
+.menubar {
+    width: 40px;
+    height: 35px;
+}
+
+.menubar span {
+    width: 100%;
+    height: 7px;
+    background-color: var(--blue-primary);
+    border-radius: 10px;
+}
+
+.main-box {
+    padding: 42px 91px;
+    box-shadow: 0px 22px 31px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.line {
+    height: 100%;
+    width: 2%;
+    border: 1px solid var(--light-blue-secondry);
+}
+
+.user-card {
+    border: 2px solid var(--border-color-ee2);
+    padding: 25px 0px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.section2 {
+    margin-top: 103px;
+}
+
+.server-card {
+    border: none;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.section3-heading {
+    max-width: 383px;
+    margin-top: 80px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.choose {
+    margin-top: 80px;
+}
+
+.section3-paragraph {
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+.lets {
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.show {
+    display: flex !important;
+}
+
+@media (max-width:1200px) {
+    .navbar-items {
+        width: 100%;
+        height: 100%;
+        background-color: var(--white-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: space-evenly !important;
+    }
+
+    .ul-items {
+        flex-direction: column;
+    }
+
+    .menubar {
+        position: relative;
+        z-index: 1;
+    }
+
+    .sign-in {
+        flex-direction: column;
+    }
+}
