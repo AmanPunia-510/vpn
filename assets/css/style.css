@@ -39,6 +39,8 @@ body {
     --border-color-ee2: #EEEFF2;
     --bg-fbfbfb: #FBFBFB;
     --border-dd: #DDDDDD;
+    --color-f8f8f8: #F8F8F8;
+    --color-AFB5C0: #AFB5C0;
 }
 
 .ff-rubik {
@@ -147,6 +149,22 @@ ul {
     height: 45px;
     border: 1px solid var(--red-color-light);
     border-radius: 50px;
+    background-color: var(--white-color);
+}
+
+.sign-in-btn:hover{
+    background-color: var(--red-color-pure) !important;
+    color: var(--white-color);
+    border: none;
+}
+
+.list:hover{
+    font-weight: var(--font-weight-500);
+    color: var(--blue-primary);
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .gap-38 {
@@ -155,6 +173,7 @@ ul {
 
 .nav {
     padding: 20px 0px;
+    z-index: 1;
 }
 
 .pt-160 {
@@ -219,6 +238,10 @@ ul {
     border-left: none;
     border-bottom: none;
     border-top: none;
+}
+
+.user-svg{
+    cursor: pointer;
 }
 
 .section2 {
@@ -388,7 +411,7 @@ ul {
     display: flex !important;
 }
 
-.next{
+.next {
     width: 60px;
     height: 60px;
     background-color: var(--red-color-pure);
@@ -401,6 +424,70 @@ ul {
     height: 60px;
     border: 2px solid var(--red-color-pure);
     border-radius: 50%;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #DDE0E4;
+    ;
+}
+
+.subscribe-box {
+    margin-top: 57px;
+    background-color: var(--white-color);
+    padding: 55px 70px;
+    box-shadow: 0px 19px 34px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.subscribe-h2 {
+    max-width: 371px;
+}
+
+.subscribe-btn {
+    width: 250px;
+    height: 60px;
+    background-color: var(--red-color-pure);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 19px 52px -3px var(--red-color-pure);
+}
+
+.subscribe-btn:hover{
+    background-color: var(--white-color);
+    color: var(--red-color-pure);
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.footer-p {
+    margin-top: 20px;
+    max-width: 340px;
+}
+
+.face-twit {
+    margin-top: 30px;
+}
+
+.copywrite {
+    color: var(--color-AFB5C0);
+    margin-top: 30px;
+}
+
+.p-list{
+    margin-bottom: 20px;
+}
+
+.product{
+    padding-bottom: 20px;
 }
 
 @media (max-width:1200px) {
@@ -444,7 +531,7 @@ ul {
         margin-bottom: 45px;
     }
 
-    .sec2-pbox{
+    .sec2-pbox {
         padding-bottom: 40px;
     }
 }
