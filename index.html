@@ -4,9 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <link rel="shortcut icon" href="./assets/images/vpn-logo.png" type="image/x-icon">
     <title>VPN</title>
 </head>
@@ -87,9 +97,9 @@
         <div class="section2 ">
             <div class="container">
                 <div class="row">
-                    <div class="main-box d-flex">
+                    <div class="main-box d-flex flex-wrap justify-content-center">
 
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="user-card d-flex gap-38 align-items-center justify-content-center">
                                 <div class="user-svg">
                                     <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
@@ -109,8 +119,8 @@
                             </div>
                         </div>
 
-                        <div class="col-4">
-                            <div class="user-card d-flex gap-38 align-items-center justify-content-center">
+                        <div class="col-12 col-lg-4">
+                            <div class="user-card user-card2 d-flex gap-38 align-items-center justify-content-center">
                                 <div class="user-svg">
                                     <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -128,7 +138,7 @@
                             </div>
                         </div>
 
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="user-card server-card d-flex gap-38 align-items-center justify-content-center">
                                 <div class="user-svg">
                                     <svg width="55" height="56" viewBox="0 0 55 56" fill="none"
@@ -156,10 +166,10 @@
     <div class="section3 mt-80 bg-white">
         <div class="container">
             <div class="row pb-120">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <img src="./assets/images/section3.png" alt="section3-img" class="section3-img w-100">
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <h2 class="section3-heading ff-rubik font-weight-500 font-size-35 line-height-50 blue-primary">We
                         Provide Many Features You Can
                         Use</h2>
@@ -242,6 +252,562 @@
             happily and
             cheerfully.</p>
     </div>
+
+    <div class="section5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-lg-4">
+                    <div class="plan-box plan-box1 d-flex flex-column justify-content-between">
+                        <div class="sec1-pbox">
+                            <img src="./assets/images/section5-img1.png" alt="section5-img1"
+                                class="section5-img1 w-100">
+                            <p
+                                class="ff-rubik free-plan font-weight-500 font-size-18 line-height-30 blue-primary text-center mt-4">
+                                Free
+                                Plan</p>
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Unlimited Bandwitch</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Encrypted Connection</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    No Traffic Logs</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Works on All Devices</div>
+                            </div>
+                        </div>
+                        <div class="sec2-pbox d-flex flex-column align-items-center gap-15">
+                            <div
+                                class="free ff-rubik font-weight-500 font-size-25 line-height-30 blue-primary text-center">
+                                Free
+                            </div>
+                            <button class="select ff-rubik font-weight-700 font-size-16 line-height-18">Select</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-6 col-lg-4">
+                    <div class="plan-box d-flex flex-column justify-content-between">
+                        <div class="sec1-pbox">
+                            <img src="./assets/images/section5-img1.png" alt="section5-img1"
+                                class="section5-img1 w-100">
+                            <p
+                                class="ff-rubik free-plan font-weight-500 font-size-18 line-height-30 blue-primary text-center mt-4">
+                                Standard Plan</p>
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Unlimited Bandwitch</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Encrypted Connection</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Yes Traffic Logs</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Works on All Devices</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Connect Anyware</div>
+                            </div>
+
+                        </div>
+                        <div class="sec2-pbox d-flex flex-column align-items-center gap-15">
+                            <div
+                                class="free ff-rubik font-weight-500 font-size-25 line-height-30 blue-primary text-center">
+                                $9 / mo
+                            </div>
+                            <button class="select ff-rubik font-weight-700 font-size-16 line-height-18">Select</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-6 col-lg-4">
+                    <div class="plan-box d-flex flex-column justify-content-between">
+                        <div class="sec1-pbox">
+                            <img src="./assets/images/section5-img1.png" alt="section5-img1"
+                                class="section5-img1 w-100">
+                            <p
+                                class="ff-rubik free-plan font-weight-500 font-size-18 line-height-30 blue-primary text-center mt-4">
+                                Free
+                                Plan</p>
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Unlimited Bandwitch</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Encrypted Connection</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    No Traffic Logs</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Works on All Devices</div>
+                            </div>
+
+                            <div class="svg-content-correct d-flex gap-2 mb-2">
+                                <div class="svg-right">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.4486 17.2802C11.3174 17.2805 11.1873 17.2548 11.066 17.2047C10.9447 17.1546 10.8345 17.081 10.7416 16.9882L6.49963 12.7452C6.40406 12.653 6.3278 12.5427 6.27531 12.4208C6.22282 12.2988 6.19514 12.1676 6.19389 12.0348C6.19264 11.902 6.21785 11.7703 6.26805 11.6474C6.31824 11.5245 6.39242 11.4128 6.48624 11.3188C6.58007 11.2249 6.69166 11.1505 6.81452 11.1002C6.93738 11.0498 7.06904 11.0244 7.20182 11.0254C7.3346 11.0265 7.46584 11.054 7.58788 11.1063C7.70992 11.1586 7.82032 11.2347 7.91263 11.3302L11.4476 14.8652L17.8126 8.50219C18.0001 8.31455 18.2545 8.20908 18.5198 8.20898C18.7851 8.20889 19.0395 8.31418 19.2271 8.50169C19.4148 8.6892 19.5202 8.94356 19.5203 9.20883C19.5204 9.4741 19.4151 9.72855 19.2276 9.91619L12.1556 16.9882C12.0628 17.081 11.9526 17.1546 11.8313 17.2047C11.7099 17.2548 11.5799 17.2805 11.4486 17.2802Z"
+                                            fill="#2FAB73" />
+                                    </svg>
+                                </div>
+                                <div
+                                    class="bandwitch ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Get New Features</div>
+                            </div>
+                        </div>
+                        <div class="sec2-pbox d-flex flex-column align-items-center gap-15">
+                            <div
+                                class="free ff-rubik font-weight-500 font-size-25 line-height-30 blue-primary text-center">
+                                $12 / mo
+                            </div>
+                            <button class="select ff-rubik font-weight-700 font-size-16 line-height-18">Select</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section6">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div
+                        class="global-network ff-rubik font-weight-500 font-size-35 line-height-50 blue-primary text-center mx-auto">
+                        Huge Global Network
+                        of Fast
+                        VPN</div>
+                    <div
+                        class="see ff-rubik font-weight-400 font-size-16 line-height-30 text-center mx-auto light-blue-secondry">
+                        See
+                        See <span class="font-weight-500">LaslesVPN</span> everywhere to make it easier for you when you
+                        move
+                        locations.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="./assets/images/section7.png" alt="section7" class="section7-img w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section8">
+        <div class="container">
+            <div class="row">
+                <div class="netflix-card d-flex align-items-center">
+                    <a href="https://www.netflix.com/in/" target="_blank"><img src="./assets/images/netflix.png"
+                            alt="netflix" class="netflix w-100"></a>
+
+                    <a href="https://www.reddit.com/?rdt=36437" target="_blank"><img src="./assets/images/redit.png"
+                            alt="netflix" class="redit w-100"></a>
+
+                    <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=674842289437&hvpos=&hvnetw=g&hvrand=15841376625819083007&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9050499&hvtargid=kwd-10573980&hydadcr=14453_2316415&gad_source=1"
+                        target="_blank"><img src="./assets/images/amazon.png" alt="netflix" class="amazon w-100"></a>
+
+                    <a href="https://discord.com/" target="_blank"><img src="./assets/images/discord.png" alt="netflix"
+                            class="discord w-100"></a>
+
+                    <a href="https://spotify.com/" target="_blank"><img src="./assets/images/spotify.png" alt="netflix"
+                            class="spotify w-100"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section9">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="">
+                        <h2
+                            class="sec9-heading ff-rubik font-weight-500 font-size-35 line-height-50 blue-primary text-center mx-auto">
+                            Trusted by Thousands of Happy Customer</h2>
+                        <p
+                            class="sec9-para ff-rubik font-weight-400 mx-auto font-size-16 line-height-30 light-blue-secondry text-center">
+                            These are the stories
+                            of our customers who have joined us with great
+                            pleasure when using this crazy feature.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-class overflow-hidden">
+        <div class="container">
+            <div class="slick-slider">
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image1.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw, Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">“Wow... I
+                        am
+                        very happy to use this VPN, it turned out to be more than my expectations and so far there have
+                        been
+                        no
+                        problems. LaslesVPN always the best”.</div>
+                </div>
+    
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image2.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw,
+                                    Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">
+                        “I like it because I like to travel far and still can connect with high speed.”.</div>
+                </div>
+    
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image3.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw,
+                                    Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">“This is very unusual for
+                        my business that currently requires a virtual private network that has high security.”.</div>
+                </div>
+    
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image1.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw, Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">“Wow... I
+                        am
+                        very“I like it because I like to travel far and still can connect with high speed.”..</div>
+                </div>
+    
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image2.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw,
+                                    Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">“Wow... I
+                        am
+                        very happy to
+                        use this VPN, it turned out to be more than my expectations and so far there have been no
+                        problems. LaslesVPN always the best”.</div>
+                </div>
+    
+                <div class="slick-box">
+                    <div class="img-robrt-star d-flex flex-wrap justify-content-between">
+                        <div class="img-robrt-card d-flex gap-3">
+                            <img src="./assets/images/slick-image3.png" alt="slick-image1" class="slick-img1 w-100">
+                            <div class="two-p d-flex flex-column">
+                                <div class="robert ff-rubik font-weight-500 font-size-18 line-height-30 blue-primary">
+                                    Viezh
+                                    Robert</div>
+                                <div
+                                    class="robert2 ff-rubik font-weight-400 font-size-14 line-height-30 light-blue-secondry">
+                                    Warsaw,
+                                    Poland</div>
+                            </div>
+                        </div>
+                        <div class="star-content d-flex gap-2 align-items-center">
+                            <div class="four">4.5</div>
+                            <div class="star-svg">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.189 5.16583L9.22178 4.58926L7.44834 0.993951C7.39991 0.895514 7.32022 0.815826 7.22178 0.767389C6.97491 0.645514 6.67491 0.747076 6.55147 0.993951L4.77803 4.58926L0.810845 5.16583C0.70147 5.18145 0.60147 5.23301 0.524907 5.31114C0.432347 5.40627 0.381343 5.53426 0.383101 5.66699C0.384859 5.79971 0.439235 5.9263 0.534282 6.01895L3.40459 8.81739L2.72647 12.769C2.71057 12.8609 2.72074 12.9554 2.75583 13.0418C2.79093 13.1283 2.84953 13.2032 2.92501 13.258C3.00049 13.3128 3.08982 13.3454 3.18288 13.352C3.27593 13.3586 3.36898 13.3391 3.45147 13.2955L6.99991 11.4299L10.5483 13.2955C10.6452 13.3471 10.7577 13.3643 10.8655 13.3455C11.1374 13.2986 11.3202 13.0408 11.2733 12.769L10.5952 8.81739L13.4655 6.01895C13.5437 5.94239 13.5952 5.84239 13.6108 5.73301C13.653 5.45958 13.4624 5.20645 13.189 5.16583Z"
+                                        fill="#FEA250" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph ff-rubik font-weight-400 font-size-16 blue-primary">“Wow... I
+                        am
+                        very happy to
+                        use this VPN, it turned out to be more than my expectations and so far there have been no
+                        problems. LaslesVPN always the best”.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="btn-box d-flex justify-content-end gap-3">
+            <button class="prev">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
+                        fill="#F53838" />
+                </svg>
+            </button>
+
+            <button class="next">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.25 7.74961H16.075L11.5375 2.29961C11.3253 2.04434 11.2232 1.71524 11.2537 1.38471C11.2842 1.05417 11.4447 0.749285 11.7 0.537112C11.9553 0.324939 12.2844 0.222862 12.6149 0.253336C12.9454 0.283811 13.2503 0.444341 13.4625 0.699612L19.7125 8.19961C19.7545 8.25927 19.7922 8.32194 19.825 8.38711C19.825 8.44961 19.825 8.48711 19.9125 8.54961C19.9692 8.69294 19.9988 8.8455 20 8.99961C19.9988 9.15372 19.9692 9.30629 19.9125 9.44961C19.9125 9.51211 19.9125 9.54961 19.825 9.61211C19.7922 9.67729 19.7545 9.73996 19.7125 9.79961L13.4625 17.2996C13.345 17.4407 13.1978 17.5542 13.0314 17.632C12.8651 17.7097 12.6836 17.7499 12.5 17.7496C12.2079 17.7502 11.9249 17.6485 11.7 17.4621C11.5734 17.3572 11.4688 17.2283 11.3921 17.0829C11.3154 16.9374 11.2682 16.7783 11.2531 16.6146C11.238 16.4509 11.2553 16.2858 11.3041 16.1288C11.3529 15.9718 11.4322 15.8259 11.5375 15.6996L16.075 10.2496H1.25C0.91848 10.2496 0.600536 10.1179 0.366116 9.8835C0.131695 9.64907 0 9.33113 0 8.99961C0 8.66809 0.131695 8.35015 0.366116 8.11573C0.600536 7.88131 0.91848 7.74961 1.25 7.74961Z"
+                        fill="white" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+
     <script src="./assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
