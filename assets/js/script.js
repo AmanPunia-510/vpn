@@ -32,3 +32,13 @@ $('.slick-slider').slick({
         }
     ]
 });
+
+
+// navbar
+
+let menub = document.querySelector(".menubar");
+let navbar = document.querySelector(".navbar-items");
+
+menub.addEventListener("click", function () {
+    navbar.classList.toggle("show");
+})
