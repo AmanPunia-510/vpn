@@ -548,6 +548,12 @@ ul {
         justify-content: space-evenly !important;
     }
 
+    .navbar-items:hover {
+        color: var(--blue-primary);
+        -webkit-text-stroke-width: medium !important;
+
+    }
+
     .ul-items {
         flex-direction: column;
     }
@@ -575,7 +581,7 @@ ul {
     .plan-box {
         padding: 0px 20px;
         align-items: center;
-        margin-bottom: 45px;
+        margin-bottom: 24px;
     }
 
     .sec2-pbox {
@@ -694,5 +700,9 @@ ul {
     .amazon {
         height: 20vh;
         object-fit: none;
+    }
+
+    .menubar {
+        width: 33px;
     }
 }
