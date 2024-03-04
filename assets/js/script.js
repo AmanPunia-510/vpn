@@ -42,3 +42,5 @@ let navbar = document.querySelector(".navbar-items");
 menub.addEventListener("click", function () {
     navbar.classList.toggle("show");
 })
+
+// slick dots

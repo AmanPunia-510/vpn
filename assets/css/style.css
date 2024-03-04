@@ -403,7 +403,6 @@ ul {
 .slick-dots li button {
     text-indent: -9999px;
     overflow: hidden;
-    /* more CSS */
 }
 
 .slick-dots li button {
@@ -427,18 +426,21 @@ ul {
     height: 60px;
     border: 2px solid var(--red-color-pure);
     border-radius: 50%;
+    background-color: var(--white-color);
 }
 
 .slick-dots {
-    display: none !important;
+    position: relative !important;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start !important;
+    width: 100%;
+    bottom: -80px !important;
 }
 
-.slick-li {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #DDE0E4;
-    ;
+.btn-box {
+    bottom: 60px;
+    position: relative;
 }
 
 .subscribe-box {
@@ -491,6 +493,27 @@ ul {
 
 .product {
     padding-bottom: 20px;
+}
+
+.slick-dots li {
+    background-color: var(--color-AFB5C0);
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    background-color: var(--red-color-pure);
+    width: 45px;
+    border-radius: 10px;
+}
+
+.slick-slide.slick-current .slick-box {
+    border: 2px solid red;
+    box-shadow: 0px 19px 40.833px 0px rgba(59, 104, 255, 0.10);
+    ;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 100px;
 }
 
 @media (max-width:1200px) {
