@@ -431,7 +431,6 @@ ul {
 
 .slick-dots {
     position: relative !important;
-    z-index: 1;
     display: flex;
     justify-content: flex-start !important;
     width: 100%;
@@ -657,5 +656,14 @@ ul {
     .netflix-card {
         flex-direction: column;
         width: 100%;
+    }
+
+    .subscribe-box {
+        padding: 55px 23px;
+    }
+
+    .amazon {
+        height: 15vh;
+        object-fit: none;
     }
 }
