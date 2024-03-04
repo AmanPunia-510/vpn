@@ -548,7 +548,7 @@ ul {
         justify-content: space-evenly !important;
     }
 
-    .navbar-items:hover {
+    .list:hover {
         color: var(--blue-primary);
         -webkit-text-stroke-width: medium !important;
 
