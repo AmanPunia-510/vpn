@@ -158,12 +158,14 @@ ul {
 
 .sign-in-btn:hover {
     background-color: var(--red-color-pure) !important;
+    box-shadow: 0px 5px 20.833px 0px rgba(255, 0, 0, 0.7);
     color: var(--white-color);
     border: none;
 }
 
 .list:hover {
     color: var(--blue-primary);
+    -webkit-text-stroke-width: medium !important;
 }
 
 .pointer {
@@ -515,6 +517,25 @@ ul {
     margin-bottom: 100px;
 }
 
+.prev:hover {
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 40.833px 0px rgba(59, 104, 255, 70%);
+    border: none;
+}
+
+.prev:hover svg path {
+    fill: var(--red-color-pure);
+}
+
+.next:hover {
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 40.833px 0px rgba(59, 104, 255, 70%);
+}
+
+.next:hover svg path {
+    fill: var(--red-color-pure);
+}
+
 @media (max-width:1200px) {
     .navbar-items {
         width: 100%;
@@ -559,6 +580,14 @@ ul {
 
     .sec2-pbox {
         padding-bottom: 40px;
+    }
+
+    .subscribe-box {
+        padding: 55px 4px;
+    }
+
+    .subscribe-btn {
+        margin-top: 30px;
     }
 }
 
@@ -663,7 +692,7 @@ ul {
     }
 
     .amazon {
-        height: 15vh;
+        height: 20vh;
         object-fit: none;
     }
 }
