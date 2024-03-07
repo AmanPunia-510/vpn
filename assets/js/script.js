@@ -24,8 +24,11 @@ $('.slick-slider').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
+                autoplay: true,
+                autoplaySpeed: 1000,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1
             }

@@ -705,4 +705,15 @@ ul {
     .menubar {
         width: 33px;
     }
+
+    .slick-dots,
+    .btn-box {
+        display: none !important;
+    }
+
+    .slick-box {
+        width: 400px;
+        height: 230px;
+        overflow-y: auto;
+    }
 }
