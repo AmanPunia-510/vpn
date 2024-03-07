@@ -713,7 +713,6 @@ ul {
 
     .slick-box {
         width: 400px;
-        height: 230px;
-        overflow-y: auto;
+        height: 300px;
     }
 }
