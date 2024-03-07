@@ -462,7 +462,7 @@ ul {
     background-color: var(--red-color-pure);
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 19px 52px -3px var(--red-color-pure);
+    box-shadow: 3px 7px 20px var(--red-color-pure);
 }
 
 .subscribe-btn:hover {
