@@ -551,21 +551,11 @@ ul {
     .list:hover {
         color: var(--blue-primary);
         -webkit-text-stroke-width: medium !important;
-
-    }
-
-    .ul-items {
-        flex-direction: column;
     }
 
     .menubar {
-        position: relative;
         z-index: 1;
         bottom: 2px;
-    }
-
-    .sign-in {
-        flex-direction: column;
     }
 }
 
@@ -580,8 +570,6 @@ ul {
 
     .plan-box {
         padding: 0px 20px;
-        align-items: center;
-        margin-bottom: 24px;
     }
 
     .sec2-pbox {
@@ -614,10 +602,6 @@ ul {
         margin-top: 50px;
     }
 
-    .subscribe-p {
-        margin-bottom: 34px;
-    }
-
     .copywrite {
         margin-bottom: 30px;
     }
@@ -628,22 +612,6 @@ ul {
         z-index: 2;
     }
 
-    .slick-list {
-        overflow: visible;
-        padding: 0 20% 0 0;
-        position: relative;
-    }
-
-    .slick-list::after {
-        content: ' ';
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        width: 4000px;
-        right: 100%;
-        background-color: white;
-    }
-
     h2.heading-section1 {
         font-size: var(--font-size-25);
         line-height: var(--line-height-50);
@@ -651,7 +619,6 @@ ul {
     }
 
     .main-box {
-        position: relative;
         bottom: 55px;
     }
 
@@ -667,11 +634,7 @@ ul {
         height: 610px;
     }
 
-    .section6 {
-        margin-top: 20px;
-    }
-
-    .section7 {
+    .section6,.section7 {
         margin-top: 20px;
     }
 
@@ -680,16 +643,11 @@ ul {
         line-height: var(--line-height-23);
     }
 
-    .subscribe-p {
-        margin-bottom: 23px;
-    }
-
     .copywrite {
         margin-bottom: 20px;
     }
 
     .netflix-card {
-        flex-direction: column;
         width: 100%;
     }
 
