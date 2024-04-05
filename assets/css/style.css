@@ -293,6 +293,8 @@ ul {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .plan-box {
@@ -360,7 +362,7 @@ ul {
     padding: 20px 13px;
     border: 2px solid var(--border-color-ee2);
     max-width: 400px;
-    min-height: 230px;
+    height: 230px;
     border-radius: 10px;
 }
 
@@ -577,7 +579,7 @@ ul {
     }
 
     .subscribe-box {
-        padding: 55px 4px;
+            padding: 55px 36px;
     }
 
     .subscribe-btn {
